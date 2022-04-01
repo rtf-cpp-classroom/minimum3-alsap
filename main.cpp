@@ -3,9 +3,11 @@
 
 int main()
 {
-	//TODO: if you want to test your functions, write your code here
+	float n1, n2, n3;
 	
+	cin >> n1 >> n2 >> n3;
 	
+	cout << "min number:" << findMinValue(n1, n2, n3);
 	
 	return 0;
 }
