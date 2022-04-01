@@ -1,13 +1,12 @@
 #include "functions.h"
 
 
-float findMinValue(float n1, float n2, float n3)
+float findMinValue(float numb1, float numb2, float numb3)
 {
-	float min = 0.0f;
+		
+	float min_number;
+	min_number = min(min(numb1, numb2), numb3);
+	cout << "min number:" << min_number;
 	
-	//TODO: write your code here
-	
-	
-	
-	return min;
+	return min_number;
 }
